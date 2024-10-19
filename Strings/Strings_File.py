@@ -45,3 +45,39 @@ print(detail[::-1]) #Reverse a string, special operation
 
 #trying to access a string index not available will lead to IndexError, string index out of range
 #print(detail[31])
+
+
+"""
+String Literals:
+Sequence of characters enclosed within "" or ''
+Ex: 
+firstName = 'sachin'
+lastName = 'sahoo'
+middleName = "sourav"
+"""
+firstName = 'sachin'
+lastName = 'sahoo'
+middleName = "sourav"
+
+print(firstName, middleName, lastName)
+
+#Escape Sequences in Strings.
+"""
+It is achieved using  blackslash '\' operator in a string.
+Example:-
+"""
+str = 'Hi it\'s sachin'
+print(str)
+
+"""
+Different Escape Sequences:-
+\t : for tab space
+\n : for newline 
+\r : for carriage return
+"""
+#Examples:
+
+greet = ('Hello\
+         World\
+         ')
+print(greet)
