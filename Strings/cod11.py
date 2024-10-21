@@ -12,7 +12,7 @@ Output: WelcomE TO GeeksforgeekS
 Approach 1:
 Using Lists : split the strings using " " to retrieve words.
 iterate over each word from the list.
-find length of the word. if len==0 or len==n-1. uppercase that Letter if its in lowercase
+find length of the word. if len==0 or len==n-1 and letter is lowercase, uppercase that Letter.
 """
 
 def capitalizeTest(inpStr):
