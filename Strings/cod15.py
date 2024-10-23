@@ -44,3 +44,13 @@ def findTotalVowels(str):
 nVowels = findTotalVowels("Hello World")
 print(nVowels)
 
+
+#Sol3
+
+def countTotalVowels(str):
+    vowel = "aeiouAEIOU"
+    tCount = sum(str.count(char) for char in vowel)
+    return tCount
+
+nVowels = countTotalVowels("Sachin")
+print(nVowels)
