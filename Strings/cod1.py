@@ -20,7 +20,7 @@ print(result)
 #Solution 2
 def rmDups(inpStr):
     newStr = ""
-    for char in newStr:
+    for char in inpStr:
         if char not in newStr:
             newStr+= char
     return newStr
