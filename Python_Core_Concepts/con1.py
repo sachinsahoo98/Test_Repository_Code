@@ -6,6 +6,8 @@ object/instance of the class is created.
 Every class consists of __init__ method which is called dynamically by python interpreter even if its not defined by
 the programmer inside class.
 
+It helps in distinguishing the methods and attributes of class from local variables.
+
 """
 
 #code1
