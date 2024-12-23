@@ -10,7 +10,7 @@ def removeIntegers(lst):
     for string in lst:
         resultantString = ""
         for char in string:
-            if not char.isdigit():
+            if char.isalpha():
                 resultantString+= char
         newList.append(resultantString)
     return newList

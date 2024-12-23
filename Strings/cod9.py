@@ -13,21 +13,21 @@ Output: am
 def printEvenLettersWord(cstr):
     word = ""
     countChar = 0
-    dict = {}
+    dictInit = {}
 
     for char in cstr:
         if char !=" ":
             word+=char
             countChar+=1
         else:
-            dict[countChar]=word
+            dictInit[countChar]=word
             countChar = 0
             word= ""
     if countChar != 0:
-        dict[countChar] = word
-    for keyValue in dict.keys():
+        dictInit[countChar] = word
+    for keyValue in dictInit.keys():
         if keyValue %2 == 0:
-            print(str(dict[keyValue])+" ", end="")
+            print(str(dictInit[keyValue])+" ", end="")
 
 printEvenLettersWord("This is a python language")
 print("\n")
